@@ -1,15 +1,46 @@
 <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
 
-  <header id= "header"
-  <img id="header-img"
-     src="/img/html/vangogh.jpg">
-<nav id="nav-bar">
-  <a class ="nav-link" href= "gmail.com">
-    <a class ="nav-link" href= "facebook.com"
-    <a class ="nav-link" href= "twitter.com"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/style.css" />
+
+    <title>Home</title>
+  </head>
+
+  <header id="header">
+    <img id="header-img" src="/logo.jpg" />
+    <nav id="nav-bar">
+      <a class="nav-link" href="gmail.com">Gmail</a>
+      <a class="nav-link" href="facebook.com">Facebook</a>
+      <a class="nav-link" href="twitter.com">Twitter</a>
     </nav>
-    <video id= "video" width="320" height="240" controls>
-  <source src="movie.mp4" type="video/mp4">
-
-
-<header/>
+    <video id="video" width="320" height="240" controls>
+      <source
+        src="/mixkit-mother-and-daughter-preparing-a-pumpkin-for-halloween-44539-medium.mp4"
+        type="video/mp4"
+      />
+    </video>
+    <form
+      id="form"
+      action="https://www.freecodecamp.com/email-submit"
+      method="GET"
+    >
+      <input
+        id="email"
+        type="email"
+        placeholder="email"
+        name="email"
+        required
+      />
+      <input id="submit" type="submit" />
+    </form>
+  </header>
+</html>
